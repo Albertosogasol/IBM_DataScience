@@ -1,0 +1,27 @@
+La metodología Foundational, una metodología de ciencia de datos cíclica e iterativa desarrollada por John Rollins, consta de 10 etapas, que comienzan con la Comprensión del negocio y terminan con la Retroalimentación.
+
+CRISP-DM, una metodología de datos de código abierto, combina varias etapas de metodología de datos en una sola etapa y omite la etapa de Retroalimentación, lo que da como resultado una metodología de datos de seis etapas.
+
+El objetivo principal de la etapa de Entendimiento del Negocio es comprender el problema del negocio y determinar los datos necesarios para responder a la pregunta central del negocio.
+
+Durante la etapa Enfoque analítico, puede elegir entre enfoques analíticos descriptivos de diagnóstico, predictivos y prescriptivos, y si desea utilizar técnicas de aprendizaje automático.
+
+Durante la etapa de Requisitos de datos, los científicos identifican el contenido, los formatos y las fuentes de datos correctos y necesarios para el enfoque analítico específico.
+
+Durante la etapa de recopilación de datos, los científicos expertos en datos revisan los requisitos de los datos y toman decisiones críticas sobre la cantidad y la calidad de los datos. Los científicos de datos aplican estadísticas descriptivas y técnicas de visualización para evaluar a fondo el contenido, la calidad y las percepciones iniciales obtenidas de los datos recopilados, identificar lagunas y determinar si se necesitan nuevos datos o si deben sustituir los existentes.
+
+La etapa de comprensión de los datos abarca todas las actividades relacionadas con la construcción del conjunto de datos. Esta etapa responde a la pregunta de si los datos recopilados representan los datos necesarios para resolver el problema empresarial. Los científicos de datos pueden utilizar estadísticas descriptivas, estadísticas predictivas o ambas.
+
+Los científicos de datos suelen aplicar Hurst, univariantes y estadísticas como la media, la mediana, el mínimo, el máximo, la desviación estándar, la correlación por pares y los histogramas.
+
+Durante la fase de preparación de los datos, los científicos de datos deben abordar los valores que faltan o que no son válidos, eliminar los duplicados y validar que los datos tienen el formato adecuado. La ingeniería de rasgos y el análisis de textos son técnicas clave que los científicos de datos aplican para validar y analizar los datos durante la etapa de Preparación de datos.
+
+El objetivo final de la etapa de Modelado es que el modelo de datos responda a la pregunta empresarial. Durante la etapa de Modelado, los científicos de datos utilizan un conjunto de datos de entrenamiento. Los científicos de datos prueban varios algoritmos con los datos del conjunto de entrenamiento para determinar si las variables son necesarias y si los datos permiten responder a la pregunta empresarial. El resultado de esos modelos es descriptivo o predictivo.
+
+La etapa de evaluación consta de dos fases: la fase de medidas de diagnóstico y la fase de significación estadística. Los científicos de datos y otras personas evalúan la calidad del modelo y determinan si éste responde a la pregunta inicial de comprensión del negocio o si el modelo de datos necesita ajustes.
+
+Durante la etapa de Despliegue, los científicos de datos dan a conocer el modelo de datos a un grupo específico de interesados, entre los que se incluyen los propietarios de la solución, el personal de marketing, los desarrolladores de aplicaciones y la administración de TI,
+
+Durante la etapa de Retroalimentación, las partes interesadas y los usuarios evalúan el modelo y aportan sus comentarios para valorar el rendimiento del modelo.
+
+El valor del modelo de datos depende de su capacidad de iteración, es decir, del éxito con que el modelo de datos incorpore los comentarios de los usuarios.
