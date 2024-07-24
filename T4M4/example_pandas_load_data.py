@@ -21,13 +21,13 @@ df['Weight(kg)'] = df[pounds_col] * 0.453592
 print(df)
 
 #New copied csv
-df.to_csv('height_weight_copy.csv', index=False)
+df.to_csv('T4M4\height_weight_copy.csv', index=False)
 
 # CSV to Python dictionary
 df_dict = df.to_dict(orient='list')
 
 # Filename
-filename = 'new_dict_python.py'
+filename = 'T4M4\\new_dict_python.py'
 
 # File content
 file_content = f"""
