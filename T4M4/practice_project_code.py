@@ -51,4 +51,7 @@ df = df.iloc[1:11,:] #Los dos puntos de después de la coma seleccionan todas la
 df.columns = ['Country', 'GDP (Million USD)']
 print(f"Top 10 economies in world based on Wikipedia webpage are: \n {df}")
 
-
+# Exercise 2
+"""
+Modify the GDP column of the DataFrame, converting the value available in Million USD to Billion USD. Use the `round()` method of Numpy library to round the value to 2 decimal places. Modify the header of the DataFrame to `GDP (Billion USD)`.
+"""
