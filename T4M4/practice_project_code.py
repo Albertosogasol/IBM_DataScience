@@ -49,9 +49,24 @@ df = df.iloc[1:11,:] #Los dos puntos de después de la coma seleccionan todas la
 
 # Assign column headers
 df.columns = ['Country', 'GDP (Million USD)']
-print(f"Top 10 economies in world based on Wikipedia webpage are: \n {df}")
+print(f"Top 10 economies in world based on Wikipedia webpage are: \n\n{df}")
 
 # Exercise 2
 """
 Modify the GDP column of the DataFrame, converting the value available in Million USD to Billion USD. Use the `round()` method of Numpy library to round the value to 2 decimal places. Modify the header of the DataFrame to `GDP (Billion USD)`.
 """
+
+# Datatype of 'GDP' column to integer
+df['GDP (Million USD)'] = df['GDP (Million USD)'].astype(float) #Se modifica a tipo entero
+
+#Convert MIllion USD to Billion USD
+df[['GDP (Million USD)']] = df[['GDP (Million USD)']] / 1000
+
+# Use numpy.round() method to round the value to 2 decimal places.
+df[['GDP (Million USD)']] = np.round(df[['GDP (Million USD)']], 2)
+
+#Rename columns header
+df.rename(columns= {'GDP (Million USD)' : 'GDP (Billion USD)'})
+
+print(f"Top 10 economies in world based on Wikipedia webpage are: \n\n{df}")
+
