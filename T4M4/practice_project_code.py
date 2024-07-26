@@ -59,14 +59,19 @@ Modify the GDP column of the DataFrame, converting the value available in Millio
 # Datatype of 'GDP' column to integer
 df['GDP (Million USD)'] = df['GDP (Million USD)'].astype(float) #Se modifica a tipo entero
 
-#Convert MIllion USD to Billion USD
+# Convert MIllion USD to Billion USD
 df[['GDP (Million USD)']] = df[['GDP (Million USD)']] / 1000
 
 # Use numpy.round() method to round the value to 2 decimal places.
 df[['GDP (Million USD)']] = np.round(df[['GDP (Million USD)']], 2)
 
-#Rename columns header
+# Rename columns header
 df.rename(columns= {'GDP (Million USD)' : 'GDP (Billion USD)'})
 
 print(f"Top 10 economies in world based on Wikipedia webpage are: \n\n{df}")
 
+# Exercise 3
+"""
+Load the DataFrame to the CSV file named "Largest_economies.csv"
+"""
+df.to_csv('./Largest_economies.csv')
