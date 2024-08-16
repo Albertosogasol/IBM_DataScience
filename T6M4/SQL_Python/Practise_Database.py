@@ -18,7 +18,7 @@ create_table = "CREATE TABLE People (ID INTEGER PRIMARY KEY NOT NULL, NAME VARCH
 cursor_obj.execute(create_table)
 
 # Añadir datos
-add_data = "INSERT INTO People (NAME, LNAME, CITY, ZIP) VALUES ('Alberto', 'Gonzaga', 'Zaragoza', '50005')"
+add_data = "INSERT INTO People (NAME, LNAME, CITY, ZIP) VALUES ('Pepito', 'Perez', 'Zaragoza', '50010')"
 
 cursor_obj.execute(add_data)
 
