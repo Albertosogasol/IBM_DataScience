@@ -193,3 +193,17 @@ print("Community Area with the Most Number of Crimes:")
 print("-" * 40)
 print(result[0])
 
+# FINAL EXAM QUESTION 2 ----------------------------------------------------------------
+# Write and execute a SQL query to list all crimes that took place at a school. Include case number, crime type, and community name.
+# How many rows were returned upon execution of this query?
+crime_school_query = """
+SELECT COUNT(*) FROM CRIME_TABLE
+WHERE LOCATION_DESCRIPTION LIKE '%SCHOOL%'
+"""
+cursor_obj.execute(crime_school_query)
+result = cursor_obj.fetchone()
+
+print("FINAL EXAM. QUESTION 2")
+print("."*40)
+for all_rows in result:
+    print(all_rows)
